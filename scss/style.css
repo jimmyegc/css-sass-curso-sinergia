@@ -1,0 +1,32 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 20px;
+  background: none;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 15px 20px;
+  background: none;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  background-color: #3498db;
+}
+
+.btn-secondary {
+  background-color: #e74c3c;
+}
+
+.article {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}/*# sourceMappingURL=style.css.map */
