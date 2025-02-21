@@ -1,0 +1,7 @@
+// _dark.scss
+@use '../abstracts/variables' as *;
+
+body {
+  background-color: $dark;
+  color: $light;
+}

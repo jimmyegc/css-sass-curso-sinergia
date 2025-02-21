@@ -1,0 +1,29 @@
+// Mixin para flexbox
+@mixin flex-center($direction: row) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: center;
+}
+
+// Mixin para media queries
+@mixin breakpoint($size) {
+  @if $size == sm {
+    @media (max-width: 600px) { @content; }
+  } @else if $size == md {
+    @media (max-width: 900px) { @content; }
+  } @else if $size == lg {
+    @media (max-width: 1200px) { @content; }
+  }
+}
+
+// Mixin para sombras
+@mixin box-shadow($color) {
+  box-shadow: 0px 4px 8px rgba($color, 0.2);
+}
+
+// Mixin para transiciones
+@mixin transition {
+  transition: all 0.3s ease-in-out;
+}
+
